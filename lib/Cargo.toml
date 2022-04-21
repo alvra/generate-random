@@ -13,7 +13,7 @@ keywords = ["random"]
 
 [dependencies]
 rand = "0.8.5"
-generate-random-macro = { path = "../derive-macro" }
+generate-random-macro = { version = "0.1.0", path = "../derive-macro" }
 
 [dev-dependencies]
 rand_chacha = "0.3.1"
