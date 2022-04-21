@@ -1,0 +1,11 @@
+[package]
+name = "generate-random-tests"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+generate-random = { path = "../lib" }
+generate-random-macro = { path = "../derive-macro" }
+rand = "0.8.5"
+rand_chacha = "0.3.1"

@@ -1,0 +1,19 @@
+[package]
+name = "generate-random"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Alexander van Ratingen"]
+homepage = "https://github.com/alvra/generate-random"
+repository = "https://github.com/alvra/generate-random"
+documentation = "https://docs.rs/generate-random"
+description = "Generate random data"
+readme = "README.md"
+keywords = ["random"]
+
+[dependencies]
+rand = "0.8.5"
+generate-random-macro = { path = "../derive-macro" }
+
+[dev-dependencies]
+rand_chacha = "0.3.1"

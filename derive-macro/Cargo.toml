@@ -1,0 +1,21 @@
+[package]
+name = "generate-random-macro"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Alexander van Ratingen"]
+homepage = "https://github.com/alvra/generate-random"
+repository = "https://github.com/alvra/generate-random"
+documentation = "https://docs.rs/generate-random"
+description = "Generate random data"
+readme = "README.md"
+keywords = ["random"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+syn = { version = "1.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+proc_macro2_helper = "0.2"
